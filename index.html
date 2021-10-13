@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Gallery</title>
+</head>
+<body>
+	<h1>Snapshots</h1>
+
+	<ul>
+		<li>
+			<a href="./images/flower.jpg" title="flower" onClick="showPic(this);return false;">Flower</a>
+		</li>
+		<li>
+			<a href="./images/cat.jpg" title="cat" onClick="showPic(this);return false;">Cat</a>
+		</li>
+		<li>
+			<a href="./images/rubberduck.jpg" title="Rubber Duck" onClick="showPic(this);return false;">Rubber Duck</a>
+		</li>
+		<li>
+			<a href="./images/guitar.jpg" title="guitar" onClick="showPic(this);return false;">Guitar</a>
+		</li>
+
+	</ul>
+
+	<img id="placeholder" src="images/placeholder.gif" alt="my image gallery"/>
+	<p id="description">Choose an image.</p>
+	<script type="text/javascript" src="./scripts/showPic.js"></script>
+
+</body>
+</html>
